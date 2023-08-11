@@ -1,0 +1,9 @@
+{
+  "watch": ["src/**/*.js"],
+  "ignore": ["public", "ecosystem.config.js", "eslintrc.js"],
+  "exec": "./node_modules/.bin/babel-node ./src/bin/www.js",
+  "env": {
+    "NODE_ENV": "development",
+    "SERVER_PORT": 20810
+  }
+}
